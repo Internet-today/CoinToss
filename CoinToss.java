@@ -3,7 +3,7 @@ import java.util.*;
 public class CoinToss {
 	public static void main(String args[]) {
 		
-		System.out.println("Tossing a coin...");
+		System.out.println("!\nTossing a coin...");
 		
 		String[] Result = {"Heads","Tails"};
 		int[] resultValue = {0,0};
