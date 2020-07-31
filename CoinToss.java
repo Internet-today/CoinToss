@@ -23,10 +23,10 @@ public class CoinToss {
 		System.out.println(Result[0]+":" +resultValue[0]+ "," +Result[1]+":" +resultValue[1]);
 		
 		if (resultValue[0]>resultValue[1]) {
-			System.out.println("You win");
+			System.out.println(name+" won");
 		}
 		else {
-			System.out.println("You lose");
+			System.out.println(name+" lost");
 		}
 		
 	}
