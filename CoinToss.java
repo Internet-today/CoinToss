@@ -3,7 +3,10 @@ import java.util.*;
 public class CoinToss {
 	public static void main(String args[]) {
 		
-		System.out.println("Tossing a coin...");
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Who are you?");
+		String name = scanner.next();
+		System.out.println("Hello, " +name+"!\nTossing a coin....\n");
 		
 		String[] Result = {"Heads","Tails"};
 		int[] resultValue = {0,0};
